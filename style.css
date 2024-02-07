@@ -1,0 +1,73 @@
+body{
+  background:#9BA6C8;
+  text-align:center;
+  font-family: 'Happy Monkey', cursive;
+}
+
+.container{
+display: block;
+border: 5px solid white;
+width: 500px;
+height: 700px;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+}
+.item1{
+  background: white;
+  height: 100px;
+  border-bottom: 2px solid white ;
+  color: #D04D3F;
+  font-size: 16px;
+}
+
+.item2{
+  background:#94a6fd;
+  height: 400px;
+  background-image: url("img/birthday.png");
+  background-size: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fad261;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.item3{
+  background: #fad261;
+  height: 176px;
+  border-top:2px solid white;
+  color:#94a6fd;
+  font-weight: bolder;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#font2{
+  font-style: italic;
+}
+
+.gift-img{
+  width: 440px;
+  background-image:url("img/gift cover.png");
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#gift-img-happy:hover{
+  background-image: url("img/giphy (1).gif");
+ border:4px solid white;
+}
+#gift-img-hot:hover{
+  background-image: url("img/giphy.gif");
+  border:4px solid white;
+}
+
+.gift-title{
+  color:#ECCE7C;
+  font-size: 50px;
+  margin: 20px;
+}
